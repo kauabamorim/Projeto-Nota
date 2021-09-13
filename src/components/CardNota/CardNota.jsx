@@ -1,15 +1,15 @@
 import React from "react";
 import { Component } from "react";
-import "./estilo.css"
+import "./estilo.css";
 
 class CardNota extends Component {
   render() {
     return (
-      <section>
-        <header className="card-nota">
-          <h3>Título</h3>
+      <section className="card-nota">
+        <header>
+          <h3 className="card-nota_titulo">Título</h3>
         </header>
-        <p>Escreva sua Nota</p>
+        <p className="card-nota_texto">Escreva sua Nota</p>
       </section>
     );
   }
