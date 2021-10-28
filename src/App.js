@@ -46,6 +46,4 @@ class App extends Component {
   }
 }
 
-// react -> Lib
-// React -> ecossistema
 export default App;
